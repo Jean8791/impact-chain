@@ -1,0 +1,13 @@
+{
+  "name": "impact-chain",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "ws:list": "npm -ws --silent run | true",
+    "lint": "echo \"(placeholder) lint will be added later\"",
+    "test": "echo \"(placeholder) tests will be added later\""
+  }
+}
